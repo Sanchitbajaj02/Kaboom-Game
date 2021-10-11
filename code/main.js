@@ -38,7 +38,6 @@ function jump() {
 };
 
 mouseClick(jump);
-GamepadButton(jump);
 
 function spawnTree() {
     add([
