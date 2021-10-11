@@ -2378,6 +2378,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
   }
   __name(jump, "jump");
   mouseClick(jump);
+  GamepadButton(jump);
   function spawnTree() {
     add([
       rect(48, rand(32, 96)),
